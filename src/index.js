@@ -1,10 +1,18 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
+import App from "./App";
+import Form from "./Form";
+
 import "./index.css";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Weather App</h1>
-    </div>
-  );
-}
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+    <Form />
+  </StrictMode>
+);
 

@@ -11,7 +11,6 @@ export default function Form() {
   let [img, setImg] = useState("");
 
   function showInfo(response) {
-    event.preventDefault();
     setLoaded(true);
     setTemperature(`Temperature: ${Math.round(response.data.main.temp)}°C`);
     setDescription(`Description: ${response.data.weather[0].description}`);
