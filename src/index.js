@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import App from "./App";
 import Form from "./Form";
+import Footer from "./Footer";
 
 import "./index.css";
 
@@ -13,6 +14,7 @@ root.render(
   <StrictMode>
     <App />
     <Form />
+    <Footer />
   </StrictMode>
 );
 
