@@ -12,8 +12,8 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <div className="container">
     <App />
+    <div className="container">
     <Form />
     <Footer />
     </div>
