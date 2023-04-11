@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  color: white;
+  font-size: 96px;
 }
 body {
   background-color: black;
@@ -8,4 +10,6 @@ body {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  background-color: white;
+  color: black;
 }
