@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./index.css";
+import "./Form.css";
+
 
 export default function Form() {
   let [loaded, setLoaded] = useState(false);
@@ -32,7 +33,7 @@ export default function Form() {
   }
 
   let form = (
-    <form onSubmit={getInfo}>
+    <form className="formStyling" onSubmit={getInfo}>
       <input type="search" onChange={searchCity} />
       <input type="submit" value="Search" />
     </form>
