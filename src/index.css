@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-color: black;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
