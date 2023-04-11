@@ -9,3 +9,6 @@ body {
   color: black;
   font-family: sans-serif;
 }
+.container .form {
+  margin: 0 auto;
+}

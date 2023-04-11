@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Form.css";
+import "./index.css";
 
 export default function Form() {
   let [loaded, setLoaded] = useState(false);
